@@ -10,5 +10,19 @@
   * Code editor - https://code.visualstudio.com/
   * GitHub repository (course files) -  https://github.com/iamshaunjp/react-r...
   * React CDN - https://reactjs.org/docs/cdn-links.html
-* Visual Studio Code
+##### Visual Studio Code useful extensions
   * HTML5 Boilerplate
+  * ES7 React/Redux/GraphQL/React-Native snippets
+  * Live Server
+  * Monokai++
+  * Sublime Babel
+##### Chrome extension
+* https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+  
+#### Components
+* A react application is made of components.
+###### Component types
+* class based components (extends React.Component)
+   * Each component has state and return a behaviour of an element through **render** method.
+   * The element can have inner elements, but there will be only one element at root level.
+   * we can't use **class** in JSX in components, instead we use className.
