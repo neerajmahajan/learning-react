@@ -26,3 +26,8 @@
    * Each component has state and return a behaviour of an element through **render** method.
    * The element can have inner elements, but there will be only one element at root level.
    * we can't use **class** in JSX in components, instead we use className.
+##### Useful links
+   * https://reactjs.org/docs/events.html#supported-events
+   * https://medium.freecodecamp.org/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb
+##### Forms
+   
