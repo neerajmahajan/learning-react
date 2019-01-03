@@ -17,15 +17,57 @@
             name:"neeraj",
             age:30
         }
-    render(){
+        handleButtonClick(e){
+            console.log("Button Clicked");
+        }
+        handleOnMouseOver(e){
+            console.log("Mouse over");
+        }
+        handleOnCopy = (e) => {
+            console.log("Dont copy paste");
+            console.log("This way I can also print object state");
 
-        return(
-            <div className="app.content">
-            <h1>Hey Neeraj Mahajan ji </h1>
-            <p>My name is {this.state.name}</p>
-            <p>My age is {this.state.age}</p>
-            </div>
-        )
+            console.log("name " + this.state.name);
+            console.log("age " + this.state.age);
+            console.log("Going to change the object state");
+            this.setState(
+                {age:35}
+            );
+            console.log("name " + this.state.name);
+            console.log("age " + this.state.age);
+            // Above two statement still shows old state dont know why ??, but element referring to changed state see latest state
+
+        }
+        handleChange = (e) => {
+            this.setState(
+                {
+                    name: e.target.value
+                }
+
+            )
+
+        }
+
+        handleSubmit = (e) => {
+            e.preventDefault();
+            console.log("form submitted");
+
+        }
+        render(){
+
+            return(
+                <div className="app.content">
+                <h1>Hey</h1>
+                <p>My name is {this.state.name}</p>
+                <p>My age is {this.state.age}</p>
+                <button onClick={this.handleButtonClick} onMouseOver={this.handleOnMouseOver} >Submit Button</button>
+                <p onCopy={this.handleOnCopy}> Are you going to copy me </p>
+                <form onSubmit={this.handleSubmit}>
+                    <input type="text" onChange={this.handleChange}/>
+                    <button>Submit</button>
+                </form>
+                </div>
+            )
     }
     }    
     ReactDOM.render(<App/>,document.getElementById('app'));
