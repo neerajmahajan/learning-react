@@ -36,5 +36,11 @@
 * React apps are typically single page applications.
 * Only ever one HTML served to browser.
 * React then controls what user see on the page.
+* Is made of components.
+ * A component can has sub comonents... like a Java class have object references.
+ * A component can pass properties to sub components. through key=value
+   * https://github.com/neerajmahajan/react-redux-complete-playlist/tree/lesson-13/myapp/src
+ * We can also pass **list of objects** to a sub component.
+   * https://github.com/neerajmahajan/react-redux-complete-playlist/tree/lesson-14/myapp
 
    
