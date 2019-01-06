@@ -56,6 +56,8 @@
    * Use functions to create.
 * Map function is used to return a list + Conditional output
   * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-16/myapp/src/Ninjas.js
+* Taking inputs from form and passing to other components.
+  * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-17/myapp/src/AddNinja.js
 
 
    
