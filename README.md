@@ -44,16 +44,16 @@
    * https://github.com/neerajmahajan/react-redux-complete-playlist/tree/lesson-14/myapp
 ##### Component Types
 * Container Components or Class based components
- * Contain state.
- * Contain lifecycle hooks.
- * Not Concerned with UI.
- * Use classes to create.
+   * Contain state.
+   * Contain lifecycle hooks.
+   * Not Concerned with UI.
+   * Use classes to create.
 
 * UI Components or Stateless Components - https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-14/myapp/src/Ninjas.js
- * Don't contain state.
- * Recieve data from props.
- * Only concerned with UI.
- * Use functions to create.
+   * Don't contain state.
+   * Recieve data from props.
+   * Only concerned with UI.
+   * Use functions to create.
 
 
    
