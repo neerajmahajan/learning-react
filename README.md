@@ -54,6 +54,8 @@
    * Recieve data from props.
    * Only concerned with UI.
    * Use functions to create.
+* Map function is used to return a list + Conditional output
+  * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-16/myapp/src/Ninjas.js
 
 
    
