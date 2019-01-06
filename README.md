@@ -42,5 +42,18 @@
    * https://github.com/neerajmahajan/react-redux-complete-playlist/tree/lesson-13/myapp/src
  * We can also pass **list of objects** to a sub component.
    * https://github.com/neerajmahajan/react-redux-complete-playlist/tree/lesson-14/myapp
+##### Component Types
+* Container Components
+ * Contain state.
+ * Contain lifecycle hooks.
+ * Not Concerned with UI.
+ * Use classes to create.
+
+* UI Components
+ * Don't contain state.
+ * Recieve data from props.
+ * Only concerned with UI.
+ * Use functions to create.
+
 
    
