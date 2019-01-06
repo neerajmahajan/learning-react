@@ -58,6 +58,8 @@
   * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-16/myapp/src/Ninjas.js
 * Taking inputs from form and passing to other components.
   * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-17/myapp/src/AddNinja.js
+* Passing functions as props to a component and updating master component state through that function.
+  * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-18/myapp/src/App.js
 
 
    
