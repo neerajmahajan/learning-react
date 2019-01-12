@@ -63,6 +63,7 @@
   * Spread Operator
    * let ninjas = [..this.state.ninjas, ninja]
    * ... add add elements of existing array to a new array
-   
-
+ ##### React Lifecycle 
+ * http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+ * 
    
