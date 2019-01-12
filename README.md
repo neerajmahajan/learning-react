@@ -60,6 +60,9 @@
   * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-17/myapp/src/AddNinja.js
 * Passing functions as props to a component and updating master component state through that function.
   * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-18/myapp/src/App.js
-
+  * Spread Operator
+   * let ninjas = [..this.state.ninjas, ninja]
+   * ... add add elements of existing array to a new array
+   
 
    
