@@ -88,5 +88,7 @@
 * npx create-react-app $APP_NAME
 * npm start
 
-##### React Router - https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-25/poketimes/src/App.js
+##### React Router - 
 * npm install react-router-dom
+* https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-25/poketimes/src/App.js
+* https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-26/poketimes/src/App.js
