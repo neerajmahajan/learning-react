@@ -66,5 +66,21 @@
    * delete https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-19/myapp/src/App.js
  ##### React Lifecycle 
  * http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
- * 
+ * Mounting
+  * constructor - Usually used to set the state of component.
+  * getDerivedStateFromProps
+     * Is called when the component is going to rendered first time.
+     * when the passed parameters to the components are changed.
+  * render (in virtual DOM)
+  * React update DOM and references
+  * componentDidMount : fires after component mount. Can load data from database
+ * Updating
+  * getDerivedStateFromProps
+  * shouldComponentUpdate : check new props and old props
+  * render
+  * getSnapshotBeforeUpdate (Read only access to real DOM)
+  * React Update DOM and references
+  * componentDidUpdate
+ * Unmounting
+  * componentWillUnmount
    
