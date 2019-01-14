@@ -92,3 +92,7 @@
 * npm install react-router-dom
 * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-25/poketimes/src/App.js
 * https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-26/poketimes/src/App.js
+
+##### Axios - Fetching data from extra source
+* npm install axios
+* https://jsonplaceholder.typicode.com/users (Provide dummy Data)
