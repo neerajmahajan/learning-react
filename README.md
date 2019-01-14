@@ -64,7 +64,7 @@
    * let ninjas = [..this.state.ninjas, ninja]
    * ... add add elements of existing array to a new array
    * delete https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-19/myapp/src/App.js
- ##### React Lifecycle 
+ ##### React Lifecycle https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-22/myapp/src/App.js
  * http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
  * Mounting
   * constructor - Usually used to set the state of component.
