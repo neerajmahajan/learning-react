@@ -83,4 +83,7 @@
   * componentDidUpdate
  * Unmounting
   * componentWillUnmount
-   
+##### New App - https://github.com/neerajmahajan/react-redux-complete-playlist/blob/lesson-23/todoapp/src/App.js
+
+* npx create-react-app $APP_NAME
+* npm start
